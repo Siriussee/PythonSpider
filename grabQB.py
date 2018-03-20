@@ -20,4 +20,6 @@ pattern = re.compile('<div.*?author">.*?<a.*?<img.*?>(.*?)</a>.*?<div.*?'+
 
 items = re.findall(pattern,content)
 for item in items:
-    print item[0],item[1],item[2],item[3],item[4]
+        haveImg = re.search("img",item[3])
+        if not haveImg:
+            print item[0],item[1],item[2],item[4]

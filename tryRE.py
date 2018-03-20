@@ -32,3 +32,10 @@ print re.split(pattern,'one1two2three3four4')
 pattern = re.compile(r'\d+')
 print re.findall(pattern,'one1two2three3four4')
 # ['1', '2', '3', '4']
+
+
+pattern = re.compile(r'\d+')
+print re.findall(pattern,'65535qwe12345')
+
+pattern_altmetric_core = re.compile(r'alt="Article has an altmetric score of \d+')
+print re.findall(pattern_altmetric_core,'<img alt="Article has an altmetric score of 1665">')
