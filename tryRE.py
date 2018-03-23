@@ -39,3 +39,12 @@ print re.findall(pattern,'65535qwe12345')
 
 pattern_altmetric_core = re.compile(r'alt="Article has an altmetric score of \d+')
 print re.findall(pattern_altmetric_core,'<img alt="Article has an altmetric score of 1665">')
+
+pattern_DOI = re.compile(r'\b(10[.][0-9]{4,}(?:[.][0-9]+)*/(?:(?!["&\'<>])\S)+)\b')
+print re.findall(pattern_DOI,'href="https://doi.org/10.1126/science.aao1619" link_ta')
+
+pattern_title = re.compile(r'<h1 class="article__headline">.*</h1>')
+print re.findall(pattern_title,'<h1 class="article__headline"><div class="highwire-cite-title">Exposed subsurface ice sheets in the Martian mid-latitudes</div></h1>')
+
+pattern_pubilcation_date = re.compile(r'<div class="meta-line">.*</div>')
+print re.findall(pattern_pubilcation_date,'<div class="meta-line"><cite>Science&nbsp;</cite> 12 Jan 2018:<br />Vol. 359, Issue 6372, pp. 199-201<br />DOI: 10.1126/science.aao1619</div>')
