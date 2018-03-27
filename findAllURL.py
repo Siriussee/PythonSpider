@@ -17,3 +17,4 @@ f.close()
 '''
 
 #  <div class="highwire-cite-highlight"><a href="/content/339/6115" class="highlight-image-linked"><img class="highlight-image" src="https://d2ufo47lrtsv5s.cloudfront.net/sites/default/files/styles/sci_issue_archive_cover/public/highwire/sci/339/6115.cover-source.gif?itok=pGqLLXf8" alt="Science: 339 (6115)" /></a></div>
+pattern_altmetric_score = re.compile(r'alt="Article has an altmetric score of \d+')
