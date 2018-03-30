@@ -50,9 +50,13 @@ pattern_pubilcation_date = re.compile(r'<div class="meta-line">.*</div>')
 print re.findall(pattern_pubilcation_date,'<div class="meta-line"><cite>Science&nbsp;</cite> 12 Jan 2018:<br />Vol. 359, Issue 6372, pp. 199-201<br />DOI: 10.1126/science.aao1619</div>')
 
 
-pattern_mata_data = re.compile(r'<cite>Science </cite>.*</div>')
-mata_data = re.findall(pattern_mata_data,'<cite>Science </cite> 12 Jan 2018:<br />Vol. 359, Issue 6372, pp. 199-201<br />DOI: 10.1126/science.aao1619      </div>')
+pattern_mata_data = re.compile(r'<cite> Science </cite>.*</div>')
+mata_data = re.findall(pattern_mata_data,'<cite>Science </cite> 12 Jan 2018:<br />Vol. 359, Issue 6372, pp. 199-201<br />DOI: 10.1126/science.aao1619      </div>')
 print mata_data
 
 pattern_url_by_day = re.compile(r'/content/\d+/\d+')
 print re.findall(pattern_url_by_day,'<div class="highwire-cite-highlight"><a href="/content/339/6115"')
+
+
+pattern_outlet = re.compile(r'Picked up by <b>\d+</b> news outlets')
+print re.findall(pattern_outlet,'error')[0].split('<b>')[1].split('</b>')[0] if re.findall(pattern_outlet,'error') else '0'

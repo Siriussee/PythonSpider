@@ -3,6 +3,7 @@ import re
 import time
 import numpy
 import urllib2
+import random
 
 # url = 'http://science.sciencemag.org/content/359/6372/199/tab-article-info'
 
@@ -25,7 +26,7 @@ try:
         request = urllib2.Request(url_by_year, headers = headers)
         response = urllib2.urlopen(request)
         html_text += response.read() + '\n'
-        time.sleep(2)
+        time.sleep(random.randint(2,5))
         print url_by_year + ' is searched'
 except urllib2.URLError, e:
     print e.reason
@@ -35,6 +36,7 @@ pattern_url_by_day = re.compile(r'/content/\d+/\d+')
 url_by_day = re.findall(pattern_url_by_day,html_text)
 unique_url_by_day = numpy.unique(url_by_day);
 # print url_by_day
+
 # f = open('content_line.txt', 'w')
 
 contents = []
@@ -47,4 +49,26 @@ for each in unique_url_by_day:
 
 # f.close()
 
-print contents
+# print contents
+
+for content in contents:
+    request = urllib2.Request(content, headers = headers)
+    response = urllib2.urlopen(request)
+    html_text = response.read()
+    time.sleep(random.randint(2,5))
+    print content + ' is searched'
+    # href="/content/341/6145/476"
+    pattern_url_in_list = re.compile(r'/content/\d+/\d+/\d+')
+    papers = re.findall(pattern_url_in_list,html_text)
+    unique_papers = numpy.unique(papers);
+
+    # url_of_papers = []
+    f = open('url_of_papers.txt', 'a')
+
+    for paper in unique_papers:
+        paper_line = 'http://science.sciencemag.org' + paper + '/tab-article-info\n' 
+        # url_of_papers.append(paper_line)
+        f.write(paper_line)
+
+    f.close()
+
