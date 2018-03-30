@@ -1,3 +1,5 @@
+#coding=utf-8
+
 from selenium import webdriver
 import re
 import time
@@ -11,9 +13,9 @@ import random
 
 file_name = time.strftime("%Y%m%d") + '_Science_statistic.csv'
 
-with open(file_name, 'w') as file:
+with open(file_name, 'wb') as file:
     writer = csv.writer(file)
-    first_list = ['DOI','catagory','pubilcation date','tltle','altmetric score','outlets','blogged','tweeted','facebooked','google+','wikipedia','videoed','reddited','mendeleyed']
+    first_list = ['DOI','catagory','pubilcation date','title','altmetric score','outlets','blogged','tweeted','facebooked','google+','wikipedia','videoed','reddited','mendeleyed']
     writer.writerow(first_list)
 
 with open('url_of_papers.txt', 'r') as f:
@@ -29,6 +31,11 @@ for url in urls:
 
     # match altmetric_score
     pattern_altmetric_score = re.compile(r'alt="Article has an altmetric score of \d+')
+
+    #check not found page
+    if len(re.findall(pattern_altmetric_score,html_text)) == 0:
+        continue
+
     altmetric_score = re.findall(pattern_altmetric_score,html_text)[0].split(' ')[6]
     # print altmetric_score
 
@@ -103,9 +110,9 @@ for url in urls:
     pubilcation_date = re.findall(pattern_pubilcation_date,mata_data)[0].split('>')[1].split(':')[0][1:]
     # print pubilcation_date
 
-    
+    data_list = [DOI,catagory,pubilcation_date,title.encode('UTF-8'),altmetric_score,outlets,blogged,tweeted,facebooked,gplus,wikied,videoed,reddited,mendeleyed]
     # file = open(file_name,'wb')
-    with open(file_name, 'a') as file:
+    with open(file_name, 'ab') as file:
         writer = csv.writer(file)
         writer.writerow(data_list)
 
