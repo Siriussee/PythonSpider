@@ -7,10 +7,6 @@ import csv
 import numpy
 import random
 
-#print time.strftime("%Y%m%d")
-
-# url = 'http://science.sciencemag.org/content/359/6372/199/tab-article-info'
-
 file_name = time.strftime("%Y%m%d") + '_Science_statistic.csv'
 
 with open(file_name, 'wb') as file:
@@ -94,8 +90,12 @@ for url in urls:
 
     # match article category
     # <div class="overline">Reports</div>
-    pattern_catagory = re.compile(r'<div class="overline">.*</div>')
+    # <div class="overline"><span class="overline__section">News & Analysis</span></div>
+    pattern_catagory = re.compile(r'<div class="overline">.*?</div>',re.S)
     catagory = re.findall(pattern_catagory,html_text)[0].split('>')[1].split('<')[0]
+    if catagory.strip() == '':
+        pattern_catagory_in_lines = re.compile(r'<span class="overline__section">.*?</span>',re.S)
+        catagory = re.findall(pattern_catagory_in_lines,html_text)[0].split('>')[1].split('<')[0]
     # print catagory
 
     # match article title

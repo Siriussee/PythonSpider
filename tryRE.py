@@ -1,5 +1,5 @@
 import re
- 
+
 # genarate pattern via (string)
 # re.compile('pattern', re.I | re.M), you can set mode like re.I
 pattern = re.compile(r'hello')
@@ -60,3 +60,20 @@ print re.findall(pattern_url_by_day,'<div class="highwire-cite-highlight"><a hre
 
 pattern_outlet = re.compile(r'Picked up by <b>\d+</b> news outlets')
 print re.findall(pattern_outlet,'error')[0].split('<b>')[1].split('</b>')[0] if re.findall(pattern_outlet,'error') else '0'
+
+
+    # <div class="overline">Reports</div>
+    # <div class="overline"><span class="overline__section">News & Analysis</span></div>
+pattern_catagory = re.compile(r'<div class="overline">.*?</div>',re.S)
+catagory = re.findall(pattern_catagory,'<div class="overline">Reports</div>')[0].split('>')[1].split('<')[0]
+if catagory.strip() == '':
+    pattern_catagory_in_lines = re.compile(r'<span class="overline__section">.*</span>')
+    catagory = re.findall(pattern_catagory_in_lines,'<div class="overline">Reports</div>')[0].split('>')[1].split('<')[0]
+print catagory
+
+pattern_catagory = re.compile(r'<div class="overline">.*?</div>',re.S)
+catagory = re.findall(pattern_catagory,'<div class="overline">\n<span class="overline__section">News & Analysis</span>\n</div>')[0].split('>')[1].split('<')[0]
+if catagory.strip() == '':
+    pattern_catagory_in_lines = re.compile(r'<span class="overline__section">.*</span>')
+    catagory = re.findall(pattern_catagory_in_lines,'<div class="overline">\n<span class="overline__section">News & Analysis</span>\n</div>')[0].split('>')[1].split('<')[0]
+print catagory
