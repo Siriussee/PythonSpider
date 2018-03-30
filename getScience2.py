@@ -3,6 +3,7 @@ import re
 import time
 import csv  
 import numpy
+import random
 
 #print time.strftime("%Y%m%d")
 
