@@ -17,11 +17,26 @@ with open(file_name, 'wb') as file:
 with open('url_of_papers.txt', 'r') as f:
     urls = f.read().split('\n')
 
+with open('proxy.txt', 'r') as f:
+    proxys = f.read().split('\n')
+
+time_out_urls = []
 for url in urls:
-    browser = webdriver.Chrome()
-    browser.get(url)
+    try:
+        chrome_options = webdriver.ChromeOptions()
+        random_proxy = proxys[random.randint(0,451)]
+        # print 'using ' + random_proxy
+        chrome_options.add_argument('--proxy-server=http://' + random_proxy)
+        browser = webdriver.Chrome(chrome_options=chrome_options)
+        browser.set_page_load_timeout(60)
+        browser.get(url)
+    except:
+        # print 'a page is time out'
+        time_out_urls.append(url)
+        browser.close()
+        continue
     html_text=browser.page_source
-    time.sleep(random.randint(2,5))
+    time.sleep(1)
     browser.close()
     # print html_text # full element of science page
 
@@ -117,3 +132,7 @@ for url in urls:
         writer.writerow(data_list)
 
 browser.quit()
+
+with open('skipped_url.txt', 'wb') as f:
+    for url in time_out_urls:
+        f.write(url+'\n')
