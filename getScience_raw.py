@@ -17,44 +17,26 @@ with open(file_name, 'wb') as file:
     first_list = ['DOI','catagory','pubilcation date','title','altmetric score','outlets','blogged','tweeted','facebooked','google+','wikipedia','videoed','reddited','mendeleyed']
     writer.writerow(first_list)
 
-with open('url_of_2013.txt', 'r') as f:
+with open('url_of_papers.txt', 'r') as f:
     urls = f.read().split('\n')
-
-with open('good_proxy.txt', 'r') as f:
-    proxys = f.read().split('\n')
-
-time_out_urls = []
-fail_count = 0
 
 for url in urls:
     try:
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('--ignore-certificate-errors')
-        chrome_options.add_argument('--ignore-ssl-errors')
-        index = random.randint(0,len(proxys)-2)
-        random_proxy = proxys[index]
-        try:
-            print 'using ' + random_proxy
-        except:pass
-        chrome_options.add_argument('--proxy-server=http://' + random_proxy)
-        browser = webdriver.Chrome(chrome_options=chrome_options)
-        browser.set_page_load_timeout(60)
+        browser = webdriver.Chrome()
+        browser.set_page_load_timeout(30)
         # _altmetric_popover_el
         browser.get(url)
-        element = WebDriverWait(browser, 60).until(
+        element = WebDriverWait(browser, 30).until(
             EC.presence_of_element_located((By.ID, "_altmetric_popover_el"))
         )
     except:
-        # print 'a page is time out'
-        #del proxys[index]
-        fail_count = fail_count + 1
         try:
-            print 'Failed ' + fail_count
+            print 'Failed, element not found'
         except:pass
         browser.close()
         continue
     html_text=browser.page_source
-    time.sleep(5)
+    time.sleep(1)
     browser.close()
     # print html_text # full element of science page
 
