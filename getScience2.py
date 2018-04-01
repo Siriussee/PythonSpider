@@ -17,15 +17,15 @@ with open(file_name, 'wb') as file:
 with open('url_of_papers.txt', 'r') as f:
     urls = f.read().split('\n')
 
-with open('proxy.txt', 'r') as f:
+with open('good_proxy.txt', 'r') as f:
     proxys = f.read().split('\n')
 
 time_out_urls = []
 for url in urls:
     try:
         chrome_options = webdriver.ChromeOptions()
-        random_proxy = proxys[random.randint(0,451)]
-        # print 'using ' + random_proxy
+        random_proxy = proxys[random.randint(0,20)]
+        print 'using ' + random_proxy
         chrome_options.add_argument('--proxy-server=http://' + random_proxy)
         browser = webdriver.Chrome(chrome_options=chrome_options)
         browser.set_page_load_timeout(60)
