@@ -54,9 +54,9 @@ for proxy in proxys_plain:
             chrome_options.add_argument('--ignore-certificate-errors')
             chrome_options.add_argument('--ignore-ssl-errors')
             browser = webdriver.Chrome(chrome_options=chrome_options)
-            browser.set_page_load_timeout(60)
+            browser.set_page_load_timeout(30)
             browser.get('http://science.sciencemag.org/content/339/6115/43/tab-article-info')
-            element = WebDriverWait(browser, 60).until(
+            element = WebDriverWait(browser, 30).until(
                 EC.presence_of_element_located((By.ID, "_altmetric_popover_el"))
             )
         except:
