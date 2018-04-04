@@ -31,8 +31,19 @@ for data in datas:
 
     html_text = response.read()
     data = json.loads(html_text, object_hook=JSONObject)
+    if not data.cited_by_fbwalls_count:
+        data.cited_by_fbwalls_count = 65535
+    print data.cited_by_fbwalls_count
 
-    print data.history
+'''
+    # print data.history
+
+    if not data.has_key('cited_by_fbwalls_count'):
+        data.cited_by_fbwalls_count = 0
+    if not data.has_key('cited_by_tweters_count'):
+        data.cited_by_tweters_count = 0
+    if not data.has_key('cited_by_accounts_count'):
+        data.cited_by_accounts_count = 0
 
     data_list = [catagory,data.title,data.doi,data.published_on, 
     data.score, 
@@ -45,4 +56,6 @@ for data in datas:
     with open(file_name, 'ab') as file:
         writer = csv.writer(file)
         writer.writerow(data_list)
+
+    '''
 
