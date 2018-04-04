@@ -1,0 +1,93 @@
+{
+    "title": "What's in a name?",
+    "doi": "10.1126/science.aat1491",
+    "tq": [
+        "Our paper about the phylogeny of Geoplaninae has been cited in Science!",
+        "Very excited! We have been cited in Science!! What's in a name? by Gregory R. Goldsmith"
+    ],
+    "altmetric_jid": "4f6fa4df3cf058f610001f6b",
+    "issns": [
+        "0036-8075",
+        "1095-9203"
+    ],
+    "journal": "Science",
+    "cohorts": {
+        "pub": 2,
+        "com": 1,
+        "sci": 2
+    },
+    "context": {
+        "all": {
+            "count": 9346871,
+            "mean": 7.5607505665424,
+            "rank": 2068530,
+            "pct": 77,
+            "higher_than": 7261542
+        },
+        "journal": {
+            "count": 44356,
+            "mean": 35.940872956826,
+            "rank": 23180,
+            "pct": 47,
+            "higher_than": 21111
+        },
+        "similar_age_3m": {
+            "count": 109016,
+            "mean": 13.0701883594,
+            "rank": 31354,
+            "pct": 71,
+            "higher_than": 77424
+        },
+        "similar_age_journal_3m": {
+            "count": 472,
+            "mean": 101.88113800425,
+            "rank": 279,
+            "pct": 40,
+            "higher_than": 190
+        }
+    },
+    "authors": [
+        "Gregory R. Goldsmith"
+    ],
+    "type": "article",
+    "altmetric_id": 35034585,
+    "schema": "1.5.4",
+    "is_oa": false,
+    "cited_by_posts_count": 6,
+    "cited_by_tweeters_count": 5,
+    "cited_by_accounts_count": 5,
+    "last_updated": 1522707917,
+    "score": 4.35,
+    "history": {
+        "1y": 4.35,
+        "6m": 4.35,
+        "3m": 4.35,
+        "1m": 4.35,
+        "1w": 4.35,
+        "6d": 4.35,
+        "5d": 4.35,
+        "4d": 4.2,
+        "3d": 4.2,
+        "2d": 3.35,
+        "1d": 0,
+        "at": 4.35
+    },
+    "url": "http://dx.doi.org/10.1126/science.aat1491",
+    "added_on": 1522426619,
+    "published_on": 1522368000,
+    "scopus_subjects": [
+        "General"
+    ],
+    "readers": {
+        "citeulike": 0,
+        "mendeley": 0,
+        "connotea": 0
+    },
+    "readers_count": 0,
+    "images": {
+        "small": "https://badges.altmetric.com/?size=64&score=5&types=tttttttt",
+        "medium": "https://badges.altmetric.com/?size=100&score=5&types=tttttttt",
+        "large": "https://badges.altmetric.com/?size=180&score=5&types=tttttttt"
+    },
+    "details_url": "http://www.altmetric.com/details.php?citation_id=35034585"
+}
