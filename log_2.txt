@@ -1,0 +1,15 @@
+2018-04-06 01:27:02#http://science.sciencemag.org/content/339/6115/16/tab-article-info#148.217.94.54:3128
+2018-04-06 01:27:22#http://science.sciencemag.org/content/339/6115/19/tab-article-info#94.177.216.109:8888
+2018-04-06 01:27:32#http://science.sciencemag.org/content/339/6115/21/tab-article-info#106.14.180.116:8088
+2018-04-06 01:27:55#http://science.sciencemag.org/content/339/6115/30/tab-article-info#183.159.84.118:18118
+2018-04-06 01:28:18#http://science.sciencemag.org/content/339/6115/39/tab-article-info#190.7.112.18:3128
+2018-04-06 01:29:22#http://science.sciencemag.org/content/339/6115/70/tab-article-info#177.37.160.198:3128
+2018-04-06 01:32:16#http://science.sciencemag.org/content/359/6383/1458/tab-article-info#59.67.152.230:3128
+2018-04-06 01:35:10#http://science.sciencemag.org/content/339/6116/148/tab-article-info#80.211.148.20:8888
+2018-04-06 01:35:35#http://science.sciencemag.org/content/339/6116/155/tab-article-info#188.166.213.255:3128
+2018-04-06 01:35:56#http://science.sciencemag.org/content/339/6116/172/tab-article-info#104.236.154.163:3128
+2018-04-06 01:36:06#http://science.sciencemag.org/content/339/6116/178/tab-article-info#39.104.100.234:8123
+2018-04-06 01:36:16#http://science.sciencemag.org/content/339/6116/182/tab-article-info#59.44.16.6:8080
+2018-04-06 01:36:18#http://science.sciencemag.org/content/339/6116/186/tab-article-info#167.99.201.211:8080
+2018-04-06 01:36:28#http://science.sciencemag.org/content/339/6116/189/tab-article-info#128.199.223.79:443
+2018-04-06 01:36:52#http://science.sciencemag.org/content/339/6116/197/tab-article-info#80.211.5.160:8888
