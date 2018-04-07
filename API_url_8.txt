@@ -1,0 +1,396 @@
+https://api.altmetric.com/v1/doi/10.1126/science.339.6115.17#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6115.21#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6115.22#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6115.28#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6115.30#Letters
+https://api.altmetric.com/v1/doi/10.1126/science.1231183#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.1227211#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1233338#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1231552#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232329#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232558#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232220#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232662#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1224898#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230811#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1227831#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228519#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230631#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1225759#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228246#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1227622#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228282#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1226265#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228985#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229017#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228980#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229294#Report
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1444#In Brief
+https://api.altmetric.com/v1/doi/10.1126/science.aat1996#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.aat1491#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1558#Working Life
+https://api.altmetric.com/v1/doi/10.1126/science.1234741#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6116.127#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6116.128#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6116.130#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6116.131#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6116.132#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6116.133#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6116.137#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6116.139#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6116.140#Letters
+https://api.altmetric.com/v1/doi/10.1126/science.1232024#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.1219025#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1233209#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1233223#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1233423#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232733#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232930#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1233208#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.339.6116.155#Introduction to special issue
+https://api.altmetric.com/v1/doi/10.1126/science.1227901#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1230719#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1230720#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1230721#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1226897#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228061#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230262#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231451#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1226740#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1225483#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229326#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1227710#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1227166#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1225739#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1227568#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1226603#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229663#Report
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1444#In Brief
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1454#Feature
+https://api.altmetric.com/v1/doi/10.1126/science.aat1996#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.aat1491#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1558#Working Life
+https://api.altmetric.com/v1/doi/10.1126/science.1234799#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6117.259#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6117.260#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6117.262#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6117.263#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6117.264#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6117.267#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.1232228#Books 
+https://api.altmetric.com/v1/doi/10.1126/science.1234593#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1229931#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1233713#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232468#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232556#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1233324#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232227#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1229953#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229764#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231106#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231434#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1226766#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1226817#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228705#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231921#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228456#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1226767#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1226931#Report
+https://api.altmetric.com/v1/doi/10.1126/science.339.6117.350#
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1444#In Brief
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1454#Feature
+https://api.altmetric.com/v1/doi/10.1126/science.aat1996#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.aat1491#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1558#Working Life
+https://api.altmetric.com/v1/doi/10.1126/science.1234998#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6118.382#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6118.383#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6118.384#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6118.386#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6118.390#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.1232678#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.1228692#Education Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1228465#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232939#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1233814#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1233633#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1233202#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1233801#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1229848#Essays on Science and Society
+https://api.altmetric.com/v1/doi/10.1126/science.339.6118.410#Association Affairs
+https://api.altmetric.com/v1/doi/10.1126/science.1230318#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1230016#Research Article
+https://api.altmetric.com/v1/doi/10.1126/science.1230473#Research Article
+https://api.altmetric.com/v1/doi/10.1126/science.1229675#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228429#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230960#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1226018#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1227170#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231789#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229277#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1232251#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230835#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1227299#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228360#Report
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1444#In Brief
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1454#Feature
+https://api.altmetric.com/v1/doi/10.1126/science.aat1996#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.aat1491#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.1235590#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.497#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.498#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.499#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.500#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.501#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.502#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.504#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.505#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.506#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.509#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.510#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.512#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.516#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.518#
+https://api.altmetric.com/v1/doi/10.1126/science.1235140#Letters
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.521#Letters
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.522#Letters
+https://api.altmetric.com/v1/doi/10.1126/science.1232334#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.524#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.339.6119.525#Books 
+https://api.altmetric.com/v1/doi/10.1126/science.1228334#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1234415#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1233222#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232923#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1231981#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1222453#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1229578#Research Article
+https://api.altmetric.com/v1/doi/10.1126/science.1227670#Research Article
+https://api.altmetric.com/v1/doi/10.1126/science.1229000#Research Article
+https://api.altmetric.com/v1/doi/10.1126/science.1230767#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231540#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231675#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1225154#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1225411#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229262#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1225883#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231887#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230161#Report
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1444#In Brief
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1454#Feature
+https://api.altmetric.com/v1/doi/10.1126/science.aat1996#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.aat1491#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1558#Working Life
+https://api.altmetric.com/v1/doi/10.1126/science.1235227#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6120.635#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6120.636#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6120.638#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6120.639#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6120.640#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6120.642#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6120.644#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.1227970#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1234602#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234193#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1231254#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1233948#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234601#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1235219#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1229237#Research Article
+https://api.altmetric.com/v1/doi/10.1126/science.1231753#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230704#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231345#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230492#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229934#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231573#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230406#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1232467#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230624#Report
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1444#In Brief
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1454#Feature
+https://api.altmetric.com/v1/doi/10.1126/science.aat1996#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1558#Working Life
+https://api.altmetric.com/v1/doi/10.1126/science.339.6121.743#News of the Week
+https://api.altmetric.com/v1/doi/10.1126/science.339.6121.745#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6121.746#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6121.747#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6121.748#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6121.749#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6121.750#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6121.754#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.1232290#Books 
+https://api.altmetric.com/v1/doi/10.1126/science.1233813#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.1228731#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1234724#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234378#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232663#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234061#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234726#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234109#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1232490#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1220854#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1228858#Research Article
+https://api.altmetric.com/v1/doi/10.1126/science.1232458#Research Article
+https://api.altmetric.com/v1/doi/10.1126/science.1229957#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231440#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231692#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231282#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1227612#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231160#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1232097#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1226850#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229223#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231143#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1232033#Report
+https://api.altmetric.com/v1/doi/10.1126/science.339.6121.834#null
+https://api.altmetric.com/v1/doi/10.1126/science.339.6121.858#
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1444#In Brief
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1454#Feature
+https://api.altmetric.com/v1/doi/10.1126/science.aat1996#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.aat1491#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1558#Working Life
+https://api.altmetric.com/v1/doi/10.1126/science.1236010#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6122.890#News of the Week
+https://api.altmetric.com/v1/doi/10.1126/science.339.6122.893#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6122.894#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6122.895#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6122.896#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6122.897#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6122.898#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6122.901#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6122.902#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.1234201#Books 
+https://api.altmetric.com/v1/doi/10.1126/science.1229509#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1233798#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1235639#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1228565#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1230935#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1231119#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1229849#Essays on Science and Society
+https://api.altmetric.com/v1/doi/10.1126/science.339.6122.922#Association Affairs
+https://api.altmetric.com/v1/doi/10.1126/science.1224186#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1227460#Research Article
+https://api.altmetric.com/v1/doi/10.1126/science.1230583#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230020#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229881#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229625#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229386#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230221#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229259#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230062#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230413#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228160#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229568#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230751#Report
+https://api.altmetric.com/v1/doi/10.1126/science.339.6122.981#
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1444#In Brief
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1454#Feature
+https://api.altmetric.com/v1/doi/10.1126/science.aat1996#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.aat1491#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1558#Working Life
+https://api.altmetric.com/v1/doi/10.1126/science.339.6123.1001#null
+https://api.altmetric.com/v1/doi/10.1126/science.1236831#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6123.1020#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6123.1021#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6123.1022#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6123.1024#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6123.1025#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6123.1026#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6123.1028#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6123.1029#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6123.1030#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.1232265#Books 
+https://api.altmetric.com/v1/doi/10.1126/science.1236194#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1229998#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1236012#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234199#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234239#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1236226#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234992#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1228222#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1232572#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230969#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1226368#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230422#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230082#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1232518#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1232542#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1233009#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1233066#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1233521#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1233321#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231897#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228261#Report
+https://api.altmetric.com/v1/doi/10.1126/science.339.6123.1100#
+https://api.altmetric.com/v1/doi/10.1126/science.1222002#Review
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1444#In Brief
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1454#Feature
+https://api.altmetric.com/v1/doi/10.1126/science.aat1996#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.aat1491#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1558#Working Life
+https://api.altmetric.com/v1/doi/10.1126/science.1236756#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6124.1131#News of the Week
+https://api.altmetric.com/v1/doi/10.1126/science.339.6124.1134#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6124.1135#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6124.1136#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6124.1138#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6124.1141#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6124.1142#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6124.1144#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.1232679#Books et al.
+https://api.altmetric.com/v1/doi/10.1126/science.1231320#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1234938#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234106#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1236463#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234411#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1235032#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1235528#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1236378#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.339.6124.1163#Introduction to special issue
+https://api.altmetric.com/v1/doi/10.1126/science.1231298#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1231930#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1231364#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1231473#Review
+https://api.altmetric.com/v1/doi/10.1126/science.1230813#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1229650#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1227923#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228026#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228806#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231707#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1232751#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1232688#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231097#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1233913#Report
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1444#In Brief
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1454#Feature
+https://api.altmetric.com/v1/doi/10.1126/science.aat1996#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.359.6383.1558#Working Life
+https://api.altmetric.com/v1/doi/10.1126/science.1237434#
+https://api.altmetric.com/v1/doi/10.1126/science.339.6125.1260#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6125.1262#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6125.1263#News &amp; Analysis
+https://api.altmetric.com/v1/doi/10.1126/science.339.6125.1264#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6125.1266#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6125.1269#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.339.6125.1272#News Focus
+https://api.altmetric.com/v1/doi/10.1126/science.1235886#Books 
+https://api.altmetric.com/v1/doi/10.1126/science.1232527#Policy Forum
+https://api.altmetric.com/v1/doi/10.1126/science.1235591#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1235357#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1236450#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1236939#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1236966#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1234205#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1236434#Perspective
+https://api.altmetric.com/v1/doi/10.1126/science.1229534#Research Article
+https://api.altmetric.com/v1/doi/10.1126/science.1230155#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1216260#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1231711#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228753#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1233213#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230397#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228771#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1228792#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230593#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1230667#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1232927#Report
+https://api.altmetric.com/v1/doi/10.1126/science.1234351#

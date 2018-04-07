@@ -7,7 +7,7 @@ class JSONObject:
     def __init__(self, d):
         self.__dict__ = d
 
-
+'''
 url = 'https://raw.githubusercontent.com/fate0/proxylist/master/proxy.list'
 
 user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
@@ -19,6 +19,10 @@ try:
     html_text = response.read()
 except:
     print 'error'
+'''
+
+with open('html_text.txt', 'r') as f:
+    html_text = f.read()
 
 proxys = html_text.split('\n')
 # '{"country": "TH", "response_time": 8.72, "anonymity": "high_anonymous", "export_address": ["61.91.235.226"], "host": "61.91.235.226", "type": "https", "port": 8080, "from": "txt"}'
@@ -34,7 +38,10 @@ for proxy in proxys:
     except:
         continue
 
+url = 'http://science.sciencemag.org/content/359/6372/199/tab-article-info'
 
+user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
+headers = {'User-Agent': user_agent}
 
 for proxy in proxys_plain:
     try:
@@ -42,7 +49,8 @@ for proxy in proxys_plain:
         opener = urllib2.build_opener(proxy_obj)
         urllib2.install_opener(opener)
         request = urllib2.Request(url, headers = headers)
-        response = urllib2.urlopen(request, timeout = 5)
+        response = urllib2.urlopen(request, timeout = 3)
+        # html_text = response.read()
     except:
         try:print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + ' error ' + proxy + '\n'
         except:pass

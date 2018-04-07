@@ -1,7 +1,10 @@
+import Queue
 import urllib2
 import re
 import time 
 import random
+
+q = Queue.Queue()
 
 with open('url_of_papers_no_404.txt', 'r') as f:
     urls = f.read().split('\n')
@@ -9,15 +12,19 @@ with open('url_of_papers_no_404.txt', 'r') as f:
 with open('proxy_2.txt', 'r') as f:
     proxys = f.read().split('\n')
 
+for url in urls:
+    q.put(url)
+
 user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
 headers = { 'User-Agent' : user_agent }
 
-for url in urls:
+while q.qsize() > 20:
+    url = q.get()
     try:
         index = random.randint(0,len(proxys)-2)
         random_proxy = proxys[index]
 
-        try:print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) +' getting ' + url + ' leaving '+ str(len(proxys)-1)
+        try:print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) +' getting ' + url + ' finished [' + str(10134 - q.qsize()) + '/10134]'
         except:pass
     
         proxy_obj = urllib2.ProxyHandler({'http': random_proxy})
@@ -27,13 +34,9 @@ for url in urls:
         response = urllib2.urlopen(request, timeout = 5)
         html_text = response.read()
     except:
-        try:print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) +' getting ' + url + ' timeout '
+        q.put(url)
+        try:print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) +' timeout ' + url + ' leaving '+ str(len(proxys)-1)
         except:pass
-        with open('log_2.txt', 'ab') as f:
-            f.write(
-                time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + '#' +
-                url + '#' + random_proxy + '\n'
-            )
         if len(proxys)-2 > 80:
             del proxys[index]
         continue
@@ -45,11 +48,9 @@ for url in urls:
         pattern_DOI = re.compile(r'\b(10[.][0-9]{4,}(?:[.][0-9]+)*/(?:(?!["&\'<>])\S)+)\b')
         DOI = re.findall(pattern_DOI,mata_data)[0]
     except:
-        with open('log_2.txt', 'ab') as f:
-            f.write(
-                time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + '#' +
-                url + '#' + 'read error' + '\n'
-            )
+        q.put(url)
+        try:print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) +' fail to read ' + url
+        except:pass
         continue
 
     # match article category
@@ -62,6 +63,9 @@ for url in urls:
         catagory = re.findall(pattern_catagory_in_lines,html_text)[0].split('>')[1].split('<')[0] if re.findall(pattern_catagory_in_lines,html_text) else 'null'
     # print catagory
 
-    with open('API_url_8.txt', 'ab') as f:
+    with open('API_url_9.txt', 'ab') as f:
         f.write('https://api.altmetric.com/v1/doi/'+ DOI + '#' + catagory +'\n')
 
+while not q.empty():
+    with open('error_urls.txt', 'ab') as f:
+        f.write(q.get() +'\n')

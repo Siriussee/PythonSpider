@@ -8,7 +8,7 @@ class JSONObject:
     def __init__(self, d):
         self.__dict__ = d
 
-file_name = time.strftime("%Y%m%d") + '_Science_statistic.csv'
+file_name = time.strftime("%Y%m%d") + '_Science_statistic_a.csv'
 
 first_list = [
         'catagory','title','doi',
@@ -24,16 +24,16 @@ with open(file_name, 'wb') as file:
     writer = csv.writer(file)
     writer.writerow(first_list)
 
-with open('API_url_2.txt', 'r') as f:
+with open('API_url_9a.txt', 'r') as f:
     datas = f.read().split('\n')
 
 user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
 headers = { 'User-Agent' : user_agent }
 
 for data in datas:
-    url = data.split('#')[0]
-    catagory = data.split('#')[1]
     try:
+        url = data.split('#')[0]
+        catagory = data.split('#')[1]
         time.sleep(1)
         try:print time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + 'getting ' + url 
         except:pass
@@ -43,15 +43,16 @@ for data in datas:
         html_text = response.read()
         data = json.loads(html_text)
     except:
-       with open('log2.txt', 'ab') as f:
+        with open('log3.txt', 'ab') as f:
             f.write(
                 time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + 
-                ' an error occurred when requesting *' + url
+                ' an error occurred when requesting *' + url + '\n'
             )
         continue
 
     
-
+    if not data.has_key('published_on'):
+        data['published_on'] = 1
     if not data.has_key('cited_by_fbwalls_count'):
         data['cited_by_fbwalls_count'] = 0
     if not data.has_key('cited_by_tweters_count'):
@@ -70,16 +71,23 @@ for data in datas:
         data['cited_by_tweeters_count'] = 0
     if not data.has_key('cited_by_videos_count'):
         data['cited_by_videos_count'] = 0
-
-    data_list = [
-        catagory,data['title'].encode('UTF-8'),data['doi'],
-        time.strftime("%Y-%m-%d",time.localtime(data['published_on'])),data['score'],
-        data['history']['1y'],data['history']['6m'],data['history']['3m'],data['history']['1m'],
-        data['history']['1w'],data['history']['5d'],data['history']['3d'],data['history']['1d'],
-        data['readers_count'],data['cited_by_fbwalls_count'],data['cited_by_feeds_count'],
-        data['cited_by_gplus_count'],data['cited_by_msm_count'],data['cited_by_posts_count'],
-        data['cited_by_rdts_count'],data['cited_by_tweeters_count'],data['cited_by_videos_count'],
-    ]
+    try:
+        data_list = [
+            catagory,data['title'].encode('UTF-8'),data['doi'],
+            time.strftime("%Y-%m-%d",time.localtime(data['published_on'])),data['score'],
+            data['history']['1y'],data['history']['6m'],data['history']['3m'],data['history']['1m'],
+            data['history']['1w'],data['history']['5d'],data['history']['3d'],data['history']['1d'],
+            data['readers_count'],data['cited_by_fbwalls_count'],data['cited_by_feeds_count'],
+            data['cited_by_gplus_count'],data['cited_by_msm_count'],data['cited_by_posts_count'],
+            data['cited_by_rdts_count'],data['cited_by_tweeters_count'],data['cited_by_videos_count'],
+        ]
+    except:
+        with open('log3.txt', 'ab') as f:
+            f.write(
+                time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + 
+                ' an error occurred when saving data from *' + url + '\n'
+            )
+        continue
 
     with open(file_name, 'ab') as file:
         writer = csv.writer(file)
